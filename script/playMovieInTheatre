@@ -1,0 +1,9 @@
+url: http://localhost:9000/movie/admin/MovieInTheatre
+method: POST
+body:
+{
+    "id": 1,
+    "theatreId": 10,
+    "movieId":1,
+    "time": "7PM"
+}

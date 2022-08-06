@@ -1,0 +1,39 @@
+.SignUpFormAlignment{
+    border-radius: 5px;
+    margin:62px 620px 16px 577px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 3px solid grey;
+}
+
+.input-box{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:16px;
+  
+}
+
+
+  
+.input-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: #333333;
+    background: white;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.input-button:hover {
+    background-color: #333333;
+    transition: 0.7s;
+    color: white;
+}

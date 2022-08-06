@@ -1,0 +1,70 @@
+.PaymentSection {
+    border-radius: 5px;
+    margin: 0px 500px 0px 500px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.cardExpiry {
+    display: flex;
+}
+
+
+.cardExpiry input {
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.paymentButton {
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #333333;
+    background: white;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.paymentButton:hover {
+    background-color: #333333;
+    transition: 0.7s;
+    color: white;
+}
+
+.input-box {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+.bookingcontainer {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.header-payment {
+    display: flex;
+    justify-content: center;
+}
+
+
+.time-left {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    font-weight: bold;
+}

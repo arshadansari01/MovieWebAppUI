@@ -1,0 +1,117 @@
+url: http://localhost:9000/movie/admin/createTheatre
+method: POST
+body:
+
+{
+    "id": 2,
+    "name": "Phoenix Mall",
+    "address": "Whietfield, Bangalore",
+    "shows": [
+        {
+            "time": "3PM",
+            "seats": [
+                {
+                    "id": "A1",
+                    "price": "399"
+                },
+                {
+                    "id": "A2",
+                    "price": "399"
+                },
+                {
+                    "id": "A3",
+                    "price": "399"
+                },
+                {
+                    "id": "A4",
+                    "price": "399"
+                },
+                {
+                    "id": "A5",
+                    "price": "399"
+                },
+                {
+                    "id": "A6",
+                    "price": "399"
+                },
+                {
+                    "id": "A7",
+                    "price": "399"
+                },
+                {
+                    "id": "A8",
+                    "price": "399"
+                }
+            ]
+        },
+        {
+            "time": "7PM",
+            "seats": [
+                {
+                    "id": "A1",
+                    "price": "399"
+                },
+                {
+                    "id": "A2",
+                    "price": "399"
+                },
+                {
+                    "id": "A3",
+                    "price": "399"
+                },
+                {
+                    "id": "A4",
+                    "price": "399"
+                },
+                {
+                    "id": "A5",
+                    "price": "399"
+                },
+                {
+                    "id": "A6",
+                    "price": "399"
+                },
+                {
+                    "id": "A7",
+                    "price": "399"
+                },
+                {
+                    "id": "A8",
+                    "price": "399"
+                },
+                {
+                    "id": "B1",
+                    "price": "399"
+                },
+                {
+                    "id": "B2",
+                    "price": "399"
+                },
+                {
+                    "id": "B3",
+                    "price": "399"
+                },
+                {
+                    "id": "B4",
+                    "price": "399"
+                },
+                {
+                    "id": "B5",
+                    "price": "399"
+                },
+                {
+                    "id": "B6",
+                    "price": "399"
+                },
+                {
+                    "id": "B7",
+                    "price": "399"
+                },
+                {
+                    "id": "B8",
+                    "price": "399"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+This is the logic for admin page
+
+So basically create a user where firstName is Admin and you will redirect to admin page
+
+
+
+if (user.firstName == 'Admin') {
+      window.location.href = '/admin';
+    } else {
+      window.location.href = '/order';
+    }

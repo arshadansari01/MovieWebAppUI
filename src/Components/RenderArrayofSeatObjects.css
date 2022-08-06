@@ -1,0 +1,92 @@
+.SeatContainer {
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap;
+
+
+}
+
+.Seat {
+    margin: 10px 10px 10px 10px;
+    width: 5%;
+    height: 50px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 1px solid #1ea83c;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1ea83c;
+}
+
+.Seat:hover {
+    background-color: #1ea83c;
+    color: white;
+    transition: 0.7s;
+}
+
+
+.booked {
+    margin: 10px 10px 10px 10px;
+    width: 5%;
+    height: 50px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 1px solid #1ea83c;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1ea83c;
+    background-color: #eee;
+    color: white;
+    border: 1px solid;
+    cursor: not-allowed;
+
+}
+
+.Selected {
+    background-color: #1ea83c;
+    color: white;
+
+
+}
+
+.continueFunctioncss {
+    width: 200px;
+    margin-left: 45px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #333333;
+    background: white;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.continueFunctioncss:hover {
+    background-color: #333333;
+    transition: 0.7s;
+    color: white;
+}
+
+
+.continueButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.screen {
+    background: #fafafa;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.screen-this-way {
+    display: flex;
+    justify-content: center;
+}

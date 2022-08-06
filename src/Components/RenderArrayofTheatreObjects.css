@@ -1,0 +1,121 @@
+.theatreList {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 15px 40px 0px 40px;
+    background: white;
+
+}
+
+
+.theatreTime {
+    display: flex;
+
+
+}
+
+.theatreDetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showtime {
+    border: 1px solid #999;
+    color: #4abd5d;
+    padding: 4px;
+    border-radius: 4px;
+    width: 96px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 15px 10px 15px 0;
+    cursor: pointer;
+
+
+}
+
+.showtime:hover {
+    background:  #4abd5d;
+    color: white;
+    transition: 0.7s;
+}
+
+.theatreContainer {
+    margin: 30px;
+
+}
+
+
+
+.movieContainer {
+    margin: 30px;
+    background: white;
+    display: flex;
+}
+
+
+.movieImage {
+    width: 20%;
+    min-height: 300px;
+    max-height: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.movieDetails{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: left;
+}
+
+.movieDetails div {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.dateSection {
+    display: flex;
+    margin: 30px 30px 30px 50px;
+}
+
+
+.date {
+    color: #333333;
+    background: white;
+    border: 1px solid #333333;
+    padding: 4px;
+    border-radius: 4px;
+    width: 96px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 15px 10px 15px 0;
+    cursor: pointer;
+
+
+}
+
+.date:hover {
+    background:  #333333;
+    color: white;
+    transition: 0.7s;
+}
+
+.selectedDate {
+    background:  #333333;
+    color: white;
+}
